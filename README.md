@@ -1,1 +1,1 @@
-[rsschool](https://github.com/kutovoi9/rsschool-cv/tree/gh-pages)
+[rsschool](https://github.com/kutovoi9/rsschool-cv/blob/gh-pages/cv.md)
