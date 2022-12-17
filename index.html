@@ -5,28 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <header>
+    <header>
     <nav><ul>
-        <li><a href="#1">About me</a></li>
-        <li><a href="#2">Contacts</a></li>
-        <li><a href="#3">My Skills</a></li>
-        <li><a href="#4">Example</a></li>
-        <li><a href="#5">Learning</a></li>
-        <li><a href="#6">My language skills</a></li>
+        <li><a href="#section1">About me</a></li>
+        <li><a href="#section2">Contacts</a></li>
+        <li><a href="#section3">My Skills</a></li>
+        <li><a href="#section4">Example</a></li>
+        <li><a href="#section5">Learning</a></li>
+        <li><a href="#section6">My language skills</a></li>
     </ul></nav>
     </header>
     <main>
-        <div id="1">
-
-        <img src="img/iAinqHYC3CQ.jpg" alt="myphoto">
+       
+<figure id="photo">
+        <img id="myphoto"  src="img/iAinqHYC3CQ.jpg">
+    </figure>
+    <div id="section1">
         <h1>Hello, my name is Andrew</h1>
         <p>I am a student Rolling Scope School, courses "Frontend developer/ Pre-School"</p>
         <p>I like program and i want to learn to code. passed courses "Html, CSS and adaptive site"</p>
         </div>
-        <div id="2">
+        <div id="section2">
         <h2>My contacts</h2>
         <ul>
             <li>Locatioon: Krasnodar, Russia</li>
@@ -35,7 +37,7 @@
             <li>Github: kutovoi9</li>
         </ul>
         </div>
-        <div id="3">
+        <div id="section3">
             <h2>My scills</h2>
             <ul>
                 <li>Html</li>
@@ -44,9 +46,10 @@
                 <li>Grid layout</li>
             </ul>
         </div>
-        <div id="4">
+        <div id="section4">
             <h2>Example code</h2>
             <p>I am start learninig JavaScript and write first code. For  example:</p>
+            <div id="example">
             <code>let a = 2*3+1;<br>
                 alert(a);<hr>
             </code>
@@ -57,17 +60,20 @@
                     alert("А вот и неверно");
                 }<hr>
             </code>
+            </div>
         </div>
-        <div id="5">
+        <div id="section5">
             <h2>learning</h2>
             <p><a href="https://app.rs.school/profile">my profile in rsapp</a></p>
         </div>
-    </main>
-    <h6>Language skills</h6>
+    <div id="section6">
+    <h2>Language skills</h2>
     <p>I'm speak English in a level "A2"</p>
+</div>
+</main>
     <footer>
-<p>https://rs.school/js/</p>
-<img src="img/rs_school_js.svg" alt="courses_logo">
+<a href="https://rs.school/js/"><img id="logo" src="img/rs_school_js.svg" alt="courses_logo"></a>
     </footer>
+
 </body>
 </html>
