@@ -1,3 +1,72 @@
 *{
-    color: blue;
+    margin: 0;
+    padding: 0;
 }
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+border-bottom: 2px solid blue;
+padding-left: 50px;
+padding-right: 50px;
+}
+nav ul li{
+    list-style: none;
+}
+nav li a{
+    color: #000;
+}
+#photo{
+display: block;
+text-align: center;
+}
+#myphoto{
+    width: 150px;
+height: 200px;
+border: 2px dashed blue;
+margin-top: 50px;
+}
+#section1{
+    margin-top: 50px;
+    text-align: center;
+    border-bottom: 2px solid blue;
+    }
+    #section2{
+        margin-top: 50px;
+        text-align: center;
+        border-bottom: 2px solid blue;
+        }
+        #section3{
+            margin-top: 50px;
+            text-align: center;
+            border-bottom: 2px solid blue;
+            }
+            #section4{
+                margin-top: 50px;
+                text-align: center;
+                border-bottom: 2px solid blue;
+                }
+    #example{
+        background-color: grey;
+        margin-top: 20px;
+    }
+                #section5{
+                    margin-top: 50px;
+                    text-align: center;
+                    border-bottom: 2px solid blue;
+                    }
+                    #section6{
+                        margin-top: 50px;
+                        text-align: center;
+                        border-bottom: 2px solid blue;
+                        }
+                        footer{
+                            margin-top: 50px;
+                            display: block;
+                    text-align: center;
+                        }
+                        #logo{
+                            width: 150px;
+                        }
